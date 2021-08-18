@@ -177,6 +177,9 @@
     <vimAction implementation="com.maddyhome.idea.vim.action.motion.select.SelectEscapeAction" mappingModes="S" keys="«esc»"/>
     <vimAction implementation="com.maddyhome.idea.vim.action.motion.select.SelectDeleteAction" mappingModes="S" keys="«BS»,«DEL»"/>
 
+    <!-- Expression evaluation -->
+    <vimAction implementation="com.maddyhome.idea.vim.action.ex.ExpressionEvaluationAction" mappingModes="I" keys="«C-R»="/>
+
     <!-- Insert -->
     <vimAction implementation="com.maddyhome.idea.vim.action.change.insert.InsertAfterCursorAction" mappingModes="N" keys="a"/>
     <vimAction implementation="com.maddyhome.idea.vim.action.change.insert.InsertAfterLineEndAction" mappingModes="N" keys="A"/>
